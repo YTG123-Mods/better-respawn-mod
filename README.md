@@ -1,16 +1,7 @@
-# Fabric Example Mod
+# Crying Obsidian Mod
 
-## Setup
+## Features
 
-1. Edit build.gradle and mod.json to suit your needs.
-    * The "mixins" object can be removed from mod.json if you do not need to use mixins.
-    * Please replace all occurences of "modid" with your own mod ID - sometimes, a different string may also suffice.
-2. Run the following command:
-
-```
-./gradlew idea
-```
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+1. Adds a "Crying Obsidian" block, which changes your spawnpoint.
+1. Adds a "Portable Crying Obsidian" item, which changes your spawnpoint as well.
+1. Both can be used to get into places in the overworld which you can't normally get to. That is using the nether or the end.

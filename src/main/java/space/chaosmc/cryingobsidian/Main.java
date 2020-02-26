@@ -32,7 +32,7 @@ public class Main implements ModInitializer {
 		CRYING_OBSIDIAN_ITEM_ = Registry.register(Registry.ITEM, new Identifier("cryingobsidian", "item"), new Item(new Item.Settings().group(ItemGroup.MISC).maxCount(64)) {
 			@Override
 			public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
-				user.setPlayerSpawn(user.getBlockPos(), true, true);
+				user.setPlayerSpawn(user.getBlockPos(), false, true);
 
 				return TypedActionResult.consume(new ItemStack(this, 1));
 			}
