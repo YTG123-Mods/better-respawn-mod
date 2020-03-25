@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "space.chaosmc.betterrespawn.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "server.PlayerEntityMixin",
+    "server.CryingObsidianBlockMixin",
+    "server.RespawnAnchorBlockMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
