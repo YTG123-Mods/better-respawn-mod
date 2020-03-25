@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "cryingobsidian",
+  "id": "modid",
   "version": "${version}",
 
-  "name": "Crying Obsidian Mod",
-  "description": "Brings the crying obsidian block (which changes your spawnpoint) to Minecraft.",
+  "name": "Example Mod",
+  "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "YTG123"
+    "Me!"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -14,20 +14,20 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/cryingobsidian/icon.png",
+  "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "space.chaosmc.cryingobsidian.Main"
+      "net.fabricmc.example.ExampleMod"
     ]
   },
   "mixins": [
-    "cryingobsidian.mixins.json"
+    "modid.mixins.json"
   ],
 
   "depends": {
-    "fabricloader": ">=0.7.2",
+    "fabricloader": ">=0.7.4",
     "fabric": "*",
     "minecraft": "1.15.x"
   },

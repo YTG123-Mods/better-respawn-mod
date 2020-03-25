@@ -7,8 +7,6 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
-import net.minecraft.server.command.SpawnPointCommand;
-import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.util.Hand;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.TypedActionResult;
@@ -24,6 +22,8 @@ public class Main implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+
+
 		CRYING_OBSIDIAN_BLOCK = Registry.register(Registry.BLOCK, new Identifier("cryingobsidian", "block"),
 				new CryingObsidianBlock());
 		CRYING_OBSIDIAN_ITEM = Registry.register(Registry.ITEM, new Identifier("cryingobsidian", "block"),
